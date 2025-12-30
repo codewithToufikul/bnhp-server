@@ -24,8 +24,7 @@ app.use(
   })
 );
 
-// allow preflight requests globally
-app.options("*", cors());
+
 
 /**
  * BODY PARSER
